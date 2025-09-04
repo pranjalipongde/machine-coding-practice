@@ -2,6 +2,13 @@ body {
   margin: 0;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 /* Light Mode */
 .light-mode {
   background-color: #f0f0f0;
@@ -86,4 +93,52 @@ input:checked + .slider {
 
 input:checked + .slider:before {
   transform: translateX(26px);
+}
+
+.blog-post {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-post h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.post-card {
+  background-color: rgb(241, 238, 238);
+  padding: 30px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.post-card h3 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.desc {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  line-height: 16px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: blue;
+  font-size: 0.8rem;
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  padding-top: 15px;
 }
