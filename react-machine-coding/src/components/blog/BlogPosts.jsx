@@ -1,6 +1,6 @@
 import React from "react";
-import "../App.css";
-import postsData from "../../data/data.js";
+import "../../App.css";
+import postsData from "../../../data/data.js";
 import PostCard from "./PostCard.jsx";
 
 export default function BlogPosts() {
