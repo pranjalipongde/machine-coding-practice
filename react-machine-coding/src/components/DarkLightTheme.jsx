@@ -16,7 +16,7 @@ const DarkLightTheme = () => {
   return (
     <div>
       <div className={`container`}>
-        <h1>Dark Mode Toggle</h1>
+        <h1 className="heading">Dark Mode Toggle</h1>
         <div className="toggle-container">
           <label className="switch">
             <input
