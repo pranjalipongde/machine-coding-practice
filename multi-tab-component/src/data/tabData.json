@@ -1,0 +1,6 @@
+[
+  { "name": "Home", "content": "Welcome to the Home page!" },
+  { "name": "Profile", "content": "Here is your Profile information." },
+  { "name": "Settings", "content": "Adjust your Settings here." },
+  { "name": "About", "content": "Learn more About us here." }
+]
