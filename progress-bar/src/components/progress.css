@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.outer {
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.inner {
+  background-color: rgb(17, 247, 36);
+  text-align: right;
+  transition: 0.3s ease-in;
+}
